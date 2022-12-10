@@ -7,13 +7,16 @@ int main(){
     {
         cout << "Enter an integer: ";
         cin >> num;
-        if(num %2 == 0)
+        if( num != 0)
         {
-            even++;
-        }
-        else
-        {
-            odd++;
+            if(num %2 == 0)
+            {
+                even++;
+            }
+            else
+            {
+                odd++;
+            }
         }
     }
     cout << "#Even numbers = " << even << endl;
